@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    @scalajs.html.scripts(
+      "js",
+      name => routes.Assets.at(name).toString,
+      name => getClass.getResource(s"/public/$name") != null)
+  </body>
+</html>

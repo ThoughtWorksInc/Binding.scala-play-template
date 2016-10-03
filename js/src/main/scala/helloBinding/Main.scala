@@ -1,9 +1,8 @@
 package helloBinding
 
-import com.thoughtworks.binding.Binding.{Var, Vars}
+import com.thoughtworks.binding.Binding.Var
 import com.thoughtworks.binding.dom
 import org.scalajs.dom.raw.Event
-import org.scalajs.dom.html.Input
 import org.scalajs.dom.document
 
 /**
