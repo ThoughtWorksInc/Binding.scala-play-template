@@ -1,2 +1,2 @@
 GET        /assets/*file        controllers.Assets.at(path="/public", file)
-GET        /                    @controllers.IndexController.index
+GET        /                    controllers.IndexController.index
